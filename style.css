@@ -1,0 +1,178 @@
+@media only screen and (max-width: 1232px) {
+  .about {
+    display: flex;
+    flex-direction: column-reverse;
+    }
+
+   .about-img {
+   
+    align-items: center;
+    }
+}
+
+@media screen and (max-width: 650px) {
+.navbar {
+    width: 100%;
+}
+
+ul li a {
+    padding: 5px;
+    letter-spacing: 0px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 10px;
+    padding: 10px;
+    margin: 0% auto;
+    width: 100%;
+}
+.about-img {
+    margin: 10px;
+    width: 100%;
+}
+.about-img img {
+    border-radius: 30px;
+    width: 300px;
+    height: 350px;
+    text-align: center;
+}
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Comic sans MS;
+  }
+
+body {
+    margin: 0px;
+}
+
+nav {
+    box-shadow: 0px 0px 10px 0px;
+    background-color: rgb(255, 255, 255);
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+.nav-title {
+    letter-spacing: 5px;
+}
+
+ul {
+    list-style: none;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    text-decoration: none;
+    margin: 0px 10px;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    letter-spacing: 5px;
+    color: black;
+}
+
+li a:hover {
+    background-color: lightgrey;
+    transition: 1s;
+}
+
+.carasol {
+    margin: 0px;
+    padding: 0px;
+}
+
+.carasol-img {
+    width: 100%;
+    justify-content: center;
+}
+
+.heading {
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.about {
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+    margin: 0% auto;
+    width: 80%;
+}
+
+.contact {
+    margin: 0% auto;
+    width: 80%;
+    padding: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 25px;
+    border: none;
+    border-bottom: 1px solid gainsboro;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: lightgrey;
+    transition: 1s;
+}
+
+hr {
+    margin: 0% auto;
+    width: 80%;
+    color: rgba(0, 0, 0, 0.308);
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.about-img {
+    margin: 20px;
+    width: 50%;
+}
+
+.about-img img {
+    border-radius: 30px;
+}
+
+.about-text {
+    margin: 20px;
+    line-height: 2;
+    text-align: justify;
+}
+
+h4 {
+    color: rgb(167, 167, 179);
+}
+
+footer {
+    background-color: rgb(245, 245, 245);
+    padding: 50px;
+    margin-top: 50px;
+}
+.footer-text {
+    text-align: center;
+}
